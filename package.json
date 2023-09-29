@@ -1,0 +1,29 @@
+{
+  "name": "cypress-framework",
+  "version": "1.0.0",
+  "description": "Cypress project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "tsc": "tsc",
+    "cypress:open": "cypress open"
+  },
+  "keywords": [
+    "e2e",
+    "tests",
+    "cypress",
+    "automation",
+    "frameworks"
+  ],
+  "author": "Jovita Ambruževičiūtė",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "cypress": "^13.3.0",
+    "typescript": "^5.2.2",
+    "set-value": "^3.0.1"
+  },
+  "dependencies": {
+    "set-value": "^4.1.0"
+  }
+}
